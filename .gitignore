@@ -11,3 +11,4 @@ data/daily-temperature-middle-east.csv
 data/daily-temperature-north-america.csv
 data/daily-temperature-south-central-america-carribean.csv
 .env
+city_temperature_tidy.csv
