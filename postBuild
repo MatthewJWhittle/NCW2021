@@ -3,3 +3,4 @@ wget -q -O data/daily-temperature-asia.csv https://raw.githubusercontent.com/Mat
 wget -q -O data/daily-temperature-australia-south-pacific.csv https://raw.githubusercontent.com/MatthewJWhittle/NCW2021-data/main/daily-temperature-australia-south-pacific.csv
 wget -q -O data/daily-temperature-europe.csv https://raw.githubusercontent.com/MatthewJWhittle/NCW2021-data/main/daily-temperature-europe.csv
 wget -q -O data/daily-temperature-middle-east.csv https://raw.githubusercontent.com/MatthewJWhittle/NCW2021-data/main/daily-temperature-middle-east.csv
+wget -q -O data/daily-temperature-north-america.csv https://raw.githubusercontent.com/MatthewJWhittle/NCW2021-data/main/daily-temperature-north-america.csv

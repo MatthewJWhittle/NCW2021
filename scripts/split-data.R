@@ -34,3 +34,8 @@ monthly_means <-
 monthly_means %>% write_csv("data/monthly-mean-temps.csv")
 
 data %>% write_csv("city_temperature_tidy.csv")
+
+# Split US
+#data %>% filter(Region == "North America" & Country == "Canada")  %>% write_csv("data/daily-temperature-canada.csv")
+# data %>% filter(Region == "North America" & Country == "Mexico")  %>% write_csv("data/daily-temperature-mexico.csv")
+
