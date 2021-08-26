@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+city_temperature.csv
+data/daily-temperature-africa.csv
+data/daily-temperature-asia.csv
+data/daily-temperature-australia-south-pacific.csv
+data/daily-temperature-europe.csv
+data/daily-temperature-middle-east.csv
+data/daily-temperature-north-america.csv
+data/daily-temperature-south-central-america-carribean.csv
+.env
