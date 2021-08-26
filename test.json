@@ -1,0 +1,96 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# National Coding Week Excercises - R!\n",
+        "\n",
+        "Try coding in R by having a go at one of our challenges.\n",
+        "\n",
+        "## Questions to answer:\n",
+        "* Which city has had the biggest temperature change?\n",
+        "* Which city has had the smallest temperature change?\n",
+        "* Can you make a plot of annual temperature changes for each city or region?\n",
+        "* Can you make a map of temperature changes?\n",
+        "\n",
+        "## The Data\n",
+        "The dataset is a collection of daily temperature readings (daing back to 1995) from cities across the globe (split into 7 regions). It was [sourced from Kaggle](https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities) ([original source](https://academic.udayton.edu/kissock/http/Weather/default.htm)) and tidied up a bit to encode missing values and remove data before 995 (there were some readings for year 200 making it difficult to work with). \n",
+        "\n",
+        "A dataset of monthly mean temperatures for each city is also included in the `data` folder. This is easier to work with because it is much smaller than the daily temperature files. \n",
+        "\n",
+        "## Getting Started\n",
+        "If you are new to R and the tidyverse, have a read through [this cheatsheet](http://datacamp-community-prod.s3.amazonaws.com/c1fae72f-d2d7-4646-9dce-dd0f8fb5c5e8). It will give you the basics of processing and analysis.\n",
+        "\n",
+        "# Basics\n",
+        "## Loading packages\n",
+        "R is built on packages which do different things. To use them you need to load them with `library(package_name)`. The following are already installed, load them using this code: "
+      ],
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "source": [
+        "library(readr)\n",
+        "library(dplyr)\n",
+        "library(tidyr)\n",
+        "library(ggplot2)"
+      ],
+      "outputs": [],
+      "metadata": {}
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Loading the data\n",
+        "You can load the data using the `read_csv` function with the path to the file as the first argument. Don't forget to assign the result. \n",
+        "E.g."
+      ],
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "source": ["city_temps <- read_csv(\"data/monthly-mean-temps.csv\")"],
+      "outputs": [],
+      "metadata": {}
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "To preview the data just run the name of the object you assigned it to `city_temps`"
+      ],
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "source": ["city_temps"],
+      "outputs": [],
+      "metadata": {}
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {}
+    }
+  ],
+  "metadata": {
+    "orig_nbformat": 4,
+    "language_info": {
+      "name": "R",
+      "codemirror_mode": "r",
+      "pygments_lexer": "r",
+      "mimetype": "text/x-r-source",
+      "file_extension": ".r",
+      "version": "3.6.3"
+    },
+    "kernelspec": {
+      "name": "ir",
+      "display_name": "R",
+      "language": "R"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 2
+}
