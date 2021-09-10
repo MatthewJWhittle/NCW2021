@@ -7,7 +7,7 @@ data <- read_csv("city_temperature.csv")
 data <-
     data %>% 
     mutate(AvgTemperature = if_else(AvgTemperature <= -99, true = NA_real_, false = AvgTemperature)) %>% 
-    filter(Year >= 1995)
+    filter(Year >= 1995 & Year < 2020)
 
 regions <- unique(data$Region)
 

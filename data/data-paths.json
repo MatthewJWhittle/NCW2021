@@ -1,0 +1,26 @@
+{
+  "africa": {
+    "local": "data/daily-temperature-africa.csv",
+    "remote": "https://raw.githubusercontent.com/MatthewJWhittle/NCW2021-data/main/daily-temperature-africa.csv"
+  },
+  "asia": {
+    "local": "data/daily-temperature-asia.csv",
+    "remote": "https://raw.githubusercontent.com/MatthewJWhittle/NCW2021-data/main/daily-temperature-asia.csv"
+  },
+  "australia-south-pacific": {
+    "local": "data/daily-temperature-australia-south-pacific.csv",
+    "remote": "https://raw.githubusercontent.com/MatthewJWhittle/NCW2021-data/main/daily-temperature-australia-south-pacific.csv"
+  },
+  "europe": {
+    "local": "data/daily-temperature-europe.csv",
+    "remote": "https://raw.githubusercontent.com/MatthewJWhittle/NCW2021-data/main/daily-temperature-europe.csv"
+  },
+  "middle-east": {
+    "local": "data/daily-temperature-middle-east.csv",
+    "remote": "https://raw.githubusercontent.com/MatthewJWhittle/NCW2021-data/main/daily-temperature-middle-east.csv"
+  },
+  "north-america": {
+    "local": "data/daily-temperature-north-america.csv",
+    "remote": "https://raw.githubusercontent.com/MatthewJWhittle/NCW2021-data/main/daily-temperature-north-america.csv"
+  }
+}
