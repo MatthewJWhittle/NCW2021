@@ -8,3 +8,4 @@ data/city_temperature.csv
 # data/daily-temperature-north-america.csv
 .Rhistory
 .Rproj.user/*
+.Rproj.user
